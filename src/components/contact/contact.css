@@ -1,0 +1,69 @@
+.container.contact_container {
+    width: 58%;
+    display: flex;
+    justify-content: space-between; /* Mengatur jarak antara elemen */
+  }
+  
+  .contact_options {
+    display: flex;
+    gap: 2%; /* Jarak antara elemen */
+  }
+  
+  .contact_option {
+    background-color: var(--color-bg-variant);
+    padding: 0rem;
+    width: 48%; /* Lebar elemen */
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+  }
+  
+  .contact_option:hover {
+    background: transparent;
+    border-color: white;
+  }
+  
+  .contact_option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact_option h4,
+  .contact_option h5,
+  .contact_option a {
+    margin: 0;
+  }
+  
+  .contact_option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+  }
+
+  
+/*=========MEDIA QUERIES (MEDIUM DEVICES)=========*/
+@media screen and (max-width: 1024px) {
+    .container.contact_container {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .contact_option {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  /*=========MEDIA QUERIES (SMALL DEVICES)=========*/
+  @media screen and (max-width: 600px) {
+    .container.contact_container {
+      flex-direction: column;
+    }
+  
+    .contact_option {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+  
