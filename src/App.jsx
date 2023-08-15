@@ -22,6 +22,11 @@ const App = () => {
       <br />
       <Education />
       <Experience />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Project />
       <br />
       <br />
