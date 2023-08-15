@@ -1,41 +1,53 @@
 footer {
-    background: rgb(65, 121, 195);
-    padding: 3rem 0;
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 7rem;
-  }
-  
-  footer a {
-    color: var(--color-bg);
-  }
-  
+  background: #1F1F38; /* Ubah warna latar belakang */
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #F7F7FF; /* Ubah warna teks tautan */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #FFFFFF;
+}
+
+.permalinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.permalinks li {
+  list-style: none;
+}
+
+.footer_copyright {
+  margin-top: 3rem;
+  color: #F7F7FF;
+}
+
+/*=========MEDIA QUERIES (SMALL DEVICES)=========*/
+@media screen and (max-width: 600px) {
   .permalinks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0 auto 3rem;
-  }
-  
-  .footer_copyright {
-    margin-bottom: 4rem;
-    color: var(--color-bg);
-  }
-  
-  /*=========MEDIA QUERIES (SMALL DEVICES)=========*/
-  @media screen and (max-width: 600px) {
-    .permalinks {
-      flex-direction: column;
-      align-items: center;
-    }
+    flex-direction: column;
+    align-items: center;
   }
 
-  /*=========MEDIA QUERIES (MEDIUM DEVICES)=========*/
-@media screen and (max-width: 1024px) {
-    .permalinks {
-      flex-direction: column;
-      align-items: center;
-    }
+  .footer_copyright {
+    margin-top: 2rem;
   }
-  
+}
+
+/*=========MEDIA QUERIES (MEDIUM DEVICES)=========*/
+@media screen and (max-width: 1024px) {
+  .permalinks {
+    flex-direction: column;
+    align-items: center;
+  }
+}

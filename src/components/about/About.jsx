@@ -1,11 +1,11 @@
-import React from 'react'
-import './about.css'
-import ME from '../../assets/PP.jpg'
-import {FiAward} from 'react-icons/fi'
-import {MdGpsFixed} from 'react-icons/md'
-import {BiShoppingBag} from 'react-icons/bi'
+import React from 'react';
+import './about.css';
+import ME from '../../assets/PP.jpg';
+import { FiAward } from 'react-icons/fi';
+import { MdGpsFixed } from 'react-icons/md';
+import { BiShoppingBag } from 'react-icons/bi';
 
-const about = () => {
+const About = () => {
   return (
     <section id='about'>
       <h5>Get To Know</h5>
@@ -15,45 +15,48 @@ const about = () => {
         <div className='about_me'>
           <div className='about_me-image'>
             <img src={ME} alt="me" />
-
           </div>
-
         </div>
 
         <div className='about_content'>
-
           <div className='about_cards'>
             <article className='about_card'>
               <FiAward className='about_icon' />
               <h5>Experience</h5>
-              <small>Loreeem</small>
+              <small>I don't have direct work experience</small>
             </article>
 
-      
             <article className='about_card'>
               <MdGpsFixed className='about_icon' />
               <h5>Skill</h5>
-              <small>HTML, CSS, JavaScript, ReactJS</small>
+              <small>JavaScript</small>
+              <br />
+              <small>React Js</small>
+              <br />
+              <small>Node Js</small>
+              <br />
+              <small>Express Js</small>
+              <br />
+              <small>MySQL</small>
             </article>
-
 
             <article className='about_card'>
               <BiShoppingBag className='about_icon' />
               <h5>Project</h5>
-              <small>Loreem</small>
+              <small>1. Build FrontEnd Blog Apps</small>
+              <br />
+              <small>2. Build BackEnd Blog Apps</small>
+              <br />
+              <small>3. Build FullStack Cashier App</small>
             </article>
-
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur natus soluta illo iusto itaque! Dolor eos saepe molestias iste libero a ipsum, accusamus id aliquam ipsam corrupti, quam at nam!</p>
+          <p>Above are examples of some of the projects I made during my training period, for more details I will attach them on the next page!</p>
 
           <a href="#contact" className='btn btn-primary'>Talk about it</a>
-
         </div>
-        
       </div>
-
     </section>
-  )
+  );
 }
 
-export default about
+export default About;

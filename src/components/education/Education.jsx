@@ -19,7 +19,13 @@ const Education = () => {
          <p className='para'>I pursued a formal education in Nursing, completing my D3 degree within a span of 3 years.</p>
         <div>
          <h3>Purwadhika Digital School</h3>
-         <p className='para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus possimus quo quia quas quidem, velit maiores voluptatum qui iste laboriosam expedita? Possimus consequuntur debitis provident, sapiente sequi quaerat. Ipsum, consectetur!</p>
+         <p className='para'>"I have completed a 3-month bootcamp at Purwadhika Digital School. Throughout the bootcamp, I extensively learned about web development, covering both front-end and back-end aspects. During this process, I have broadened my understanding of web technologies and honed my skills in building comprehensive applications."
+
+
+
+
+
+</p>
          </div>
 
         </article>
