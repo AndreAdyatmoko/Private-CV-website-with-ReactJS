@@ -14,6 +14,12 @@ const App = () => {
       <Header />
       <Nav />
       <About />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Education />
       <Experience />
       <Project />
@@ -45,20 +51,8 @@ const App = () => {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <Contact />
       <Footer />
-
     </>
   )
 }

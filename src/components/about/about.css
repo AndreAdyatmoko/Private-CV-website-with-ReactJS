@@ -1,0 +1,6 @@
+.about_me-image img {
+    border-radius: 20%; /* Menambahkan border radius 50% untuk membuat gambar lingkaran */
+    width: 100%; /* Memastikan gambar mencakup seluruh ruang yang tersedia */
+    height: auto; /* Menjaga aspek rasio gambar */
+    display: block;
+}
